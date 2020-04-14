@@ -37,7 +37,7 @@ The MSG ID is defined in the headers, e.g. `#define SBP_MSG_ORIENT_QUAT 0x0220` 
 Todo: @rudolfkrecht
 
 ## Run
-Todo: @rudolfkrecht
+In order to run the Duro node driver, the IP address and the port number of your GNSS receiver has to be provided.
 E.g:
 ```
 rosrun duro-gps duronode _address:=192.168.0.222 _port:=55555
